@@ -1,3 +1,4 @@
-## Define your method, mothers_day, below. Go through the README and update your method as needed!
-
-
+def mothers_day(word= "Mom")
+  puts "Happy Mother's Day, #{word}!"
+end
+mothers_day(word=gets.strip)
